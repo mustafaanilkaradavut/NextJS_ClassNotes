@@ -3,7 +3,7 @@ import { useRouter } from "next/navigation";
 
 //? next.js olmayan route'lar deafult 404 sayfası sunmaktadır. Default 404 sayfasını "not-found.js" ile override edebiliriz
 const NotFound = () => {
-  const router = useRouter();
+  const router = useRouter(); //__ useRouter navigation'dan import etmemiz gerekiyor !
   return (
     <main>
       <div className="max-w-screen-xl mx-auto px-4 flex items-center justify-start h-screen md:px-8">
