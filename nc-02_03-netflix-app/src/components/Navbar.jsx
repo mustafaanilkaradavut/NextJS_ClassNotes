@@ -1,5 +1,5 @@
 "use client";
-import { useAuthContext } from "../context/AuthContext";
+import { useAuthContext } from "@/context/AuthContext";
 import {
   Disclosure,
   Menu,
@@ -62,7 +62,6 @@ export default function Navbar() {
                     src={currentUser?.photoURL || "/images/default-slate.png"}
                     alt="user"
                     referrerPolicy="no-referrer"
-                    //__ Firebase'dan kırık gelen link durumuna karşı no-referrer deriz.
                   />
                 </MenuButton>
               </div>

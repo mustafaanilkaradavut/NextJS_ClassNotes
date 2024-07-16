@@ -28,6 +28,13 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# Ignore environment files
+.env
+
+#? git rm --cached .env
+#? git commit -m "Remove .env from version control"
+
+
 # vercel
 .vercel
 
