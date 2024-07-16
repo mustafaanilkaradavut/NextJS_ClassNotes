@@ -62,6 +62,7 @@ export default function Navbar() {
                     src={currentUser?.photoURL || "/images/default-slate.png"}
                     alt="user"
                     referrerPolicy="no-referrer"
+                    //__ Firebase'dan kırık gelen link durumuna karşı no-referrer deriz.
                   />
                 </MenuButton>
               </div>
