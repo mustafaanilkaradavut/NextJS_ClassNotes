@@ -7,7 +7,7 @@ const HeroSection = async ({ id }) => {
   console.log(videoKey);
   return (
     <div className=" relative h-[50vw]">
-      <VideoSection />
+      <VideoSection videoKey={videoKey} />
     </div>
   );
 };
